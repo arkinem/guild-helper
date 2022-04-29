@@ -1,0 +1,16 @@
+{
+	"name": "watcher",
+	"version": "0.1.0",
+	"description": "google cloud function for watching online players",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "npx functions-framework --target=hey",
+		"deploy": "gcloud functions deploy hello-world-fn --entry-point hey --runtime nodejs16 --trigger-http --project guild-helper-348715  --region europe-central2"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@google-cloud/functions-framework": "^3.1.1"
+	}
+}
