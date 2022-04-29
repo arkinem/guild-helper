@@ -14,7 +14,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  job_id:
+  job_id: "watcher_gcp_function"
     runs-on: ubuntu-latest
     permissions:
       contents: "read"
